@@ -1,0 +1,13 @@
+schema{
+ query:Query
+}
+
+type: Actor{
+	id:ID!
+	title:String,
+	actorName:String
+}
+
+type Query{
+   getAllActors:String
+}
